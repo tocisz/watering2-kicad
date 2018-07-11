@@ -804,7 +804,7 @@
     (at 136.0425 112.2275 180)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.6mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
-    (path /5B357C87)
+    (path /5B43B6AC)
     (fp_text reference Q1 (at 1.27 -3.56 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
