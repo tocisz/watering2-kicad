@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name watering2-rescue)(type Legacy)(uri ${KIPRJMOD}/watering2-rescue.lib)(options "")(descr ""))
+  (lib (name shield-cache)(type Legacy)(uri ${KIPRJMOD}/shield-cache.lib)(options "")(descr ""))
+)
