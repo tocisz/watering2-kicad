@@ -1,4 +1,3 @@
-rotate power connector
 wider switch footprint
 fix transmiter footprint
 add diodes?

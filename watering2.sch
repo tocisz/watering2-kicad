@@ -168,13 +168,13 @@ Wire Wire Line
 $Comp
 L shield-cache:Conn_02x01 J1
 U 1 1 5B351FF2
-P 3400 6000
-F 0 "J1" H 3450 6100 50  0000 C CNN
-F 1 "Conn_02x01" H 3450 5900 50  0000 C CNN
-F 2 "custom:conn_power_2x01" H 3400 6000 50  0001 C CNN
-F 3 "" H 3400 6000 50  0001 C CNN
-	1    3400 6000
-	0    1    1    0   
+P 3400 6100
+F 0 "J1" H 3450 6200 50  0000 C CNN
+F 1 "Conn_02x01" H 3450 6000 50  0000 C CNN
+F 2 "custom:conn_power_2x01" H 3400 6100 50  0001 C CNN
+F 3 "" H 3400 6100 50  0001 C CNN
+	1    3400 6100
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG08
@@ -1012,16 +1012,6 @@ Wire Wire Line
 	8700 4600 8700 4250
 Wire Wire Line
 	8700 4250 9200 4250
-Wire Wire Line
-	6800 3100 7250 3100
-Wire Wire Line
-	6800 3300 7250 3300
-Wire Wire Line
-	6800 3500 7250 3500
-Wire Wire Line
-	6800 3850 7250 3850
-Wire Wire Line
-	6800 4050 7250 4050
 Connection ~ 6400 6050
 Wire Wire Line
 	5900 5150 5250 5150
@@ -1043,26 +1033,6 @@ Wire Wire Line
 	5820 6350 5820 6250
 Wire Wire Line
 	5820 6250 5900 6250
-Wire Wire Line
-	6800 4250 7250 4250
-Wire Bus Line
-	3950 2850 3950 3700
-Wire Bus Line
-	2200 3700 2200 4500
-Wire Wire Line
-	3650 2950 6000 2950
-Wire Bus Line
-	4400 5250 4400 7050
-Wire Bus Line
-	4350 1250 4350 2650
-Wire Bus Line
-	3900 3250 3900 5250
-Wire Bus Line
-	6900 2900 6900 4150
-Wire Bus Line
-	4100 2100 4100 2900
-Wire Bus Line
-	6100 2650 6100 4150
 $Comp
 L power:GND #PWR0101
 U 1 1 5B534935
@@ -1107,4 +1077,34 @@ F 3 "" H 5250 7350 50  0001 C CNN
 	1    5250 7350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6800 3100 7250 3100
+Wire Wire Line
+	6800 3300 7250 3300
+Wire Wire Line
+	6800 3500 7250 3500
+Wire Wire Line
+	6800 3850 7250 3850
+Wire Wire Line
+	6800 4050 7250 4050
+Wire Wire Line
+	6800 4250 7250 4250
+Wire Bus Line
+	3950 2850 3950 3700
+Wire Bus Line
+	2200 3700 2200 4500
+Wire Wire Line
+	3650 2950 6000 2950
+Wire Bus Line
+	4400 5250 4400 7050
+Wire Bus Line
+	4350 1250 4350 2650
+Wire Bus Line
+	3900 3250 3900 5250
+Wire Bus Line
+	6900 2900 6900 4150
+Wire Bus Line
+	4100 2100 4100 2900
+Wire Bus Line
+	6100 2650 6100 4150
 $EndSCHEMATC
