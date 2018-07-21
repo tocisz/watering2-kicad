@@ -422,9 +422,9 @@ TX
 Text Label 3650 1450 0    60   ~ 0
 R_RX
 Text Label 3650 1550 0    60   ~ 0
-R_TX
-Text Label 3650 1650 0    60   ~ 0
 R_TX_EN
+Text Label 3650 1650 0    60   ~ 0
+R_TX
 $Comp
 L shield-cache:Crystal_Small Y1
 U 1 1 5B357610
@@ -614,9 +614,9 @@ F 3 "" H 6150 2000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6050 2000 2    60   ~ 0
-R_TX_EN
-Text Label 6050 2100 2    60   ~ 0
 R_TX
+Text Label 6050 2100 2    60   ~ 0
+R_TX_EN
 $Comp
 L power:GND #PWR021
 U 1 1 5B35B5F0
@@ -668,13 +668,13 @@ R_RX
 $Comp
 L power:PWR_FLAG #FLG024
 U 1 1 5B35D5FB
-P 6150 2000
-F 0 "#FLG024" H 6150 2075 50  0001 C CNN
-F 1 "PWR_FLAG" H 6150 2150 50  0000 C CNN
-F 2 "" H 6150 2000 50  0001 C CNN
-F 3 "" H 6150 2000 50  0001 C CNN
-	1    6150 2000
-	1    0    0    -1  
+P 5550 2100
+F 0 "#FLG024" H 5550 2175 50  0001 C CNN
+F 1 "PWR_FLAG" H 5550 2250 50  0000 C CNN
+F 2 "" H 5550 2100 50  0001 C CNN
+F 3 "" H 5550 2100 50  0001 C CNN
+	1    5550 2100
+	-1   0    0    1   
 $EndComp
 Text Notes 9950 3100 2    60   ~ 0
 Humidity and Temperature
@@ -965,7 +965,6 @@ Wire Wire Line
 	4250 1350 3650 1350
 Wire Bus Line
 	4350 2650 6100 2650
-Connection ~ 6150 2000
 Wire Wire Line
 	3650 1750 4150 1750
 Wire Wire Line
@@ -978,10 +977,6 @@ Wire Wire Line
 	3650 1650 5600 1650
 Wire Wire Line
 	5600 1650 5600 2000
-Wire Wire Line
-	6050 2000 6150 2000
-Wire Wire Line
-	5600 2000 6150 2000
 Wire Wire Line
 	3650 1550 5550 1550
 Wire Wire Line
@@ -1107,4 +1102,7 @@ Wire Bus Line
 	4100 2100 4100 2900
 Wire Bus Line
 	6100 2650 6100 4150
+Connection ~ 5550 2100
+Wire Wire Line
+	5600 2000 6150 2000
 $EndSCHEMATC
